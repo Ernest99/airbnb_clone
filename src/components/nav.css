@@ -1,0 +1,55 @@
+nav{
+    padding: 25px 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #DBDCDD;
+    border-bottom: 1px solid #DBDCDD;
+}
+
+.logo{
+    max-width: 120px;
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: max-content;
+    padding: 8px 15px;
+    background: #fff;
+    border-radius: 30px;
+    border: 1px solid #DBDCDD;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+nav ul span{
+    color: #DBDCDD;
+}
+nav ul li a{
+    color: #000;
+    font-size: 14px;
+}
+.search{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+.navLink button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #FF385C;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.detail a{
+    font-size: 14px;
+    color: #000;
+}
