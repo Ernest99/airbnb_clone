@@ -53,3 +53,27 @@ nav ul li a{
     font-size: 14px;
     color: #000;
 }
+.nav_icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+
+}
+.icon{
+    text-align: center;
+}
+.icon a{
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    opacity: .5;
+    transition: opacity 500ms ease;
+}
+.icon a:hover{
+    opacity: 1;
+    transition: opacity 500ms ease;
+}
+.icon h5{
+    font-size: 12px;
+}

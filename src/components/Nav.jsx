@@ -4,6 +4,7 @@ import './nav.css'
 import {BiSearch} from 'react-icons/bi'
 import {TbWorld} from 'react-icons/tb'
 import Detail from './Detail'
+import NavIcons from './NavIcons'
 const Nav = () => {
   return (
     <>
@@ -25,6 +26,7 @@ const Nav = () => {
             <Detail/>
         </div>
       </nav>
+      <NavIcons/>
     </>
   )
 }
