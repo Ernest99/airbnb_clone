@@ -1,0 +1,22 @@
+footer{
+    width: 100%;
+    padding: 20px 4%;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #DBDCDD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_left p{
+    font-size: 13px;
+}
+.lang{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.lang p{
+    font-size: 13px;
+}
