@@ -5,6 +5,11 @@ nav{
     justify-content: space-between;
     border-top: 1px solid #DBDCDD;
     border-bottom: 1px solid #DBDCDD;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: #fff;
 }
 
 .logo{
@@ -54,11 +59,14 @@ nav ul li a{
     color: #000;
 }
 .nav_icon{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 4%;
     border-bottom: 1px solid #DBDCDD;
+    position: fixed;
+    background: #fff;
 
 }
 .icon{

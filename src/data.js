@@ -12,6 +12,14 @@ import {GiCaveEntrance} from 'react-icons/gi'
 import {TbBeach} from 'react-icons/tb'
 import {MdOutlineFreeBreakfast} from 'react-icons/md'
 
+
+// Houses Images
+import Img_1 from './images/h1.jpg'
+import Img_2 from './images/h2.jpg'
+import Img_3 from './images/h3.jpg'
+import Img_4 from './images/h4.jpg'
+import Img_5 from './images/h5.jpg'
+
 export const data_1 = [
    {
     id: 1,
@@ -79,4 +87,104 @@ export const data_1 = [
     title: 'Caps and Breakfast'
    }
 
+]
+
+
+export const Images = [
+   {
+      id: 1,
+      img: Img_1,
+      loc: 'Accra Ghana',
+      price: '$210.00',
+      date: 'Oct 21-29',
+      rate: 4.7
+   },
+   {
+      id: 2,
+      img: Img_2,
+      loc: 'Labadi',
+      price: '$110.00',
+      date: 'Oct 21-29',
+      rate: 4.8
+   },
+   {
+      id: 3,
+      img: Img_3,
+      loc: 'Accra Ghana',
+      price: '$210.00',
+      date: 'Oct 21-29',
+      rate: 4.7
+   },
+   {
+      id: 4,
+      img: Img_4,
+      loc: 'Accra Ghana',
+      price: '$210.00',
+      date: 'Oct 21-29',
+      rate: 4.7
+   },
+   {
+      id: 5,
+      img: Img_5,
+      loc: 'Accra Ghana',
+      price: '$210.00',
+      date: 'Oct 21-29',
+      rate: 4.7
+   },
+   {
+      id: 1,
+      img: Img_1,
+      loc: 'Accra Ghana',
+      price: '$210.00',
+      date: 'Oct 21-29',
+      rate: 4.7
+   },
+   {
+      id: 1,
+      img: Img_1,
+      loc: 'Accra Ghana',
+      price: '$210.00',
+      date: 'Oct 21-29',
+      rate: 4.7
+   },
+   {
+      id: 1,
+      img: Img_1,
+      loc: 'Accra Ghana',
+      price: '$210.00',
+      date: 'Oct 21-29',
+      rate: 4.7
+   },
+   {
+      id: 1,
+      img: Img_1,
+      loc: 'Accra Ghana',
+      price: '$210.00',
+      date: 'Oct 21-29',
+      rate: 4.7
+   },
+   {
+      id: 1,
+      img: Img_1,
+      loc: 'Accra Ghana',
+      price: '$210.00',
+      date: 'Oct 21-29',
+      rate: 4.7
+   },
+   {
+      id: 1,
+      img: Img_1,
+      loc: 'Accra Ghana',
+      price: '$210.00',
+      date: 'Oct 21-29',
+      rate: 4.7
+   },
+   {
+      id: 1,
+      img: Img_1,
+      loc: 'Accra Ghana',
+      price: '$210.00',
+      date: 'Oct 21-29',
+      rate: 4.7
+   }
 ]
