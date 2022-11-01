@@ -7,8 +7,10 @@
 }
 
 .card{
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     overflow: hidden;
+    cursor: pointer;
 }
 .card img{
     border-radius: 10px;
@@ -22,4 +24,21 @@
     display: flex;
     align-items: center;
     gap: 5px;
+}
+.card p{
+    font-size: 12px;
+    padding: 10px 0px;
+    color: #888888;
+}
+.card h4{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+
+
+@media (max-width: 589px) {
+    .card{
+        width: 100% !important;
+    }
 }
